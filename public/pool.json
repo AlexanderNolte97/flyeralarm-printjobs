@@ -1,0 +1,36 @@
+{
+  "PoolName": "FF_IPM_135",
+  "Parameters":
+  {
+    "Location": "DKL",
+    "SheetFormat": "B17",
+    "MinSheetEfficiency": 0.9
+  },
+  "Timeslots":
+  [
+    {
+      "Type": "PrintDurationTimeslot",
+      "Parameters":
+      {
+        "BuildTime": "10:30",
+        "PrintDuration": "PT1H30M"
+      }
+    },
+    {
+      "Type": "PrintDurationTimeslot",
+      "Parameters":
+      {
+        "BuildTime": "13:00",
+        "PrintDuration": "PT3H"
+      }
+    },
+    {
+      "Type": "PrintDurationTimeslot",
+      "Parameters":
+      {
+        "BuildTime": "16:30",
+        "PrintDuration": "PT4H30M"
+      }
+    }
+  ]
+}
